@@ -11,7 +11,7 @@
 ### 使用方法
 
 ```
-				ELAlertViewController * alert = [ELAlertViewController 				el_alertControllerAlertStyleWithTitle:@"标题" message:@"内容"];
+ELAlertViewController * alert = [ELAlertViewController el_alertControllerAlertStyleWithTitle:@"标题" message:@"内容"];
             
             ELAlertAction * action1 = [ELAlertAction el_actionWithTitle:@"title1" handler:^(ELAlertAction * _Nonnull action) {
                 NSLog(@"action1");
