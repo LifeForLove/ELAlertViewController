@@ -1,0 +1,5 @@
+target 'ELAlertViewControllerDemo' do
+
+pod 'Masonry'
+
+end

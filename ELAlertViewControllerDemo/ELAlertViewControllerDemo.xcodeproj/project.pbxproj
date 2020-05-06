@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC29885924628E1D00AF2CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC29885824628E1D00AF2CB5 /* AppDelegate.m */; };
+		AC29885C24628E1D00AF2CB5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC29885B24628E1D00AF2CB5 /* SceneDelegate.m */; };
+		AC29885F24628E1D00AF2CB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC29885E24628E1D00AF2CB5 /* ViewController.m */; };
+		AC29886224628E1D00AF2CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC29886024628E1D00AF2CB5 /* Main.storyboard */; };
+		AC29886424628E1F00AF2CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC29886324628E1F00AF2CB5 /* Assets.xcassets */; };
+		AC29886724628E1F00AF2CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC29886524628E1F00AF2CB5 /* LaunchScreen.storyboard */; };
+		AC29886A24628E1F00AF2CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC29886924628E1F00AF2CB5 /* main.m */; };
+		AC29887224628EFF00AF2CB5 /* ELAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC29887124628EFF00AF2CB5 /* ELAlertViewController.m */; };
+		C5C2A6596ADE4C9CDBD26939 /* libPods-ELAlertViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD058F5796A5EEF41B0389FB /* libPods-ELAlertViewControllerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C5533C3D3F4D4AA52DCE716 /* Pods-ELAlertViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELAlertViewControllerDemo.release.xcconfig"; path = "Target Support Files/Pods-ELAlertViewControllerDemo/Pods-ELAlertViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AC29885424628E1D00AF2CB5 /* ELAlertViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELAlertViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC29885724628E1D00AF2CB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC29885824628E1D00AF2CB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC29885A24628E1D00AF2CB5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AC29885B24628E1D00AF2CB5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AC29885D24628E1D00AF2CB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC29885E24628E1D00AF2CB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC29886124628E1D00AF2CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC29886324628E1F00AF2CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC29886624628E1F00AF2CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC29886824628E1F00AF2CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC29886924628E1F00AF2CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC29887024628EFF00AF2CB5 /* ELAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAlertViewController.h; sourceTree = "<group>"; };
+		AC29887124628EFF00AF2CB5 /* ELAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAlertViewController.m; sourceTree = "<group>"; };
+		AD058F5796A5EEF41B0389FB /* libPods-ELAlertViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELAlertViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F214F0CAF252890AD2A34951 /* Pods-ELAlertViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELAlertViewControllerDemo.debug.xcconfig"; path = "Target Support Files/Pods-ELAlertViewControllerDemo/Pods-ELAlertViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC29885124628E1D00AF2CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C2A6596ADE4C9CDBD26939 /* libPods-ELAlertViewControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836F74B938EDD013CAB5A339 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F214F0CAF252890AD2A34951 /* Pods-ELAlertViewControllerDemo.debug.xcconfig */,
+				4C5533C3D3F4D4AA52DCE716 /* Pods-ELAlertViewControllerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC29884B24628E1D00AF2CB5 = {
+			isa = PBXGroup;
+			children = (
+				AC29885624628E1D00AF2CB5 /* ELAlertViewControllerDemo */,
+				AC29885524628E1D00AF2CB5 /* Products */,
+				836F74B938EDD013CAB5A339 /* Pods */,
+				BA016D7D14BDDA84B6E539C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC29885524628E1D00AF2CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC29885424628E1D00AF2CB5 /* ELAlertViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC29885624628E1D00AF2CB5 /* ELAlertViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC29887024628EFF00AF2CB5 /* ELAlertViewController.h */,
+				AC29887124628EFF00AF2CB5 /* ELAlertViewController.m */,
+				AC29885724628E1D00AF2CB5 /* AppDelegate.h */,
+				AC29885824628E1D00AF2CB5 /* AppDelegate.m */,
+				AC29885A24628E1D00AF2CB5 /* SceneDelegate.h */,
+				AC29885B24628E1D00AF2CB5 /* SceneDelegate.m */,
+				AC29885D24628E1D00AF2CB5 /* ViewController.h */,
+				AC29885E24628E1D00AF2CB5 /* ViewController.m */,
+				AC29886024628E1D00AF2CB5 /* Main.storyboard */,
+				AC29886324628E1F00AF2CB5 /* Assets.xcassets */,
+				AC29886524628E1F00AF2CB5 /* LaunchScreen.storyboard */,
+				AC29886824628E1F00AF2CB5 /* Info.plist */,
+				AC29886924628E1F00AF2CB5 /* main.m */,
+			);
+			path = ELAlertViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		BA016D7D14BDDA84B6E539C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD058F5796A5EEF41B0389FB /* libPods-ELAlertViewControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC29885324628E1D00AF2CB5 /* ELAlertViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC29886D24628E1F00AF2CB5 /* Build configuration list for PBXNativeTarget "ELAlertViewControllerDemo" */;
+			buildPhases = (
+				EEB7E86681308C36C4241C55 /* [CP] Check Pods Manifest.lock */,
+				AC29885024628E1D00AF2CB5 /* Sources */,
+				AC29885124628E1D00AF2CB5 /* Frameworks */,
+				AC29885224628E1D00AF2CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELAlertViewControllerDemo;
+			productName = ELAlertViewControllerDemo;
+			productReference = AC29885424628E1D00AF2CB5 /* ELAlertViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC29884C24628E1D00AF2CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = getElementByYou;
+				TargetAttributes = {
+					AC29885324628E1D00AF2CB5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AC29884F24628E1D00AF2CB5 /* Build configuration list for PBXProject "ELAlertViewControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC29884B24628E1D00AF2CB5;
+			productRefGroup = AC29885524628E1D00AF2CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC29885324628E1D00AF2CB5 /* ELAlertViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC29885224628E1D00AF2CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC29886724628E1F00AF2CB5 /* LaunchScreen.storyboard in Resources */,
+				AC29886424628E1F00AF2CB5 /* Assets.xcassets in Resources */,
+				AC29886224628E1D00AF2CB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EEB7E86681308C36C4241C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELAlertViewControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC29885024628E1D00AF2CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC29887224628EFF00AF2CB5 /* ELAlertViewController.m in Sources */,
+				AC29885F24628E1D00AF2CB5 /* ViewController.m in Sources */,
+				AC29885924628E1D00AF2CB5 /* AppDelegate.m in Sources */,
+				AC29886A24628E1F00AF2CB5 /* main.m in Sources */,
+				AC29885C24628E1D00AF2CB5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC29886024628E1D00AF2CB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC29886124628E1D00AF2CB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC29886524628E1F00AF2CB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC29886624628E1F00AF2CB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC29886B24628E1F00AF2CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC29886C24628E1F00AF2CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC29886E24628E1F00AF2CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F214F0CAF252890AD2A34951 /* Pods-ELAlertViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMBPTRQ2Q4;
+				INFOPLIST_FILE = ELAlertViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getElementByYou.ELAlertViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC29886F24628E1F00AF2CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5533C3D3F4D4AA52DCE716 /* Pods-ELAlertViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMBPTRQ2Q4;
+				INFOPLIST_FILE = ELAlertViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getElementByYou.ELAlertViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC29884F24628E1D00AF2CB5 /* Build configuration list for PBXProject "ELAlertViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC29886B24628E1F00AF2CB5 /* Debug */,
+				AC29886C24628E1F00AF2CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC29886D24628E1F00AF2CB5 /* Build configuration list for PBXNativeTarget "ELAlertViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC29886E24628E1F00AF2CB5 /* Debug */,
+				AC29886F24628E1F00AF2CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC29884C24628E1D00AF2CB5 /* Project object */;
+}
